@@ -14,8 +14,7 @@
 
 
 
-
-       <button class="userbutton1">Click to hear the first note</button>
+<div class="bigthing">
        <!-- <audio controls>
          <source class="audio" src="Bflat.wav" type = "audio/wav"></source>
        </audio> -->
@@ -31,17 +30,28 @@
 
       <div class="firstRound">
         <div class="pad2">
-          <button id="firstRoundC">C</button>
-          <button id="firstRoundDFlat">D flat</button>
-          <button id="firstRoundBFlat">B Flat</button>
-          <button id="firstRoundAFlat">A flat</button>
+          <button id="firstRoundC" onclick = "wrong();">C</button>
+          <button id="firstRoundDFlat" onclick = "wrong();">D flat</button>
+          <button id="firstRoundBFlat" onclick = "correct();">B Flat</button>
+          <button id="firstRoundAFlat" onclick = "wrong();">A flat</button>
+          <p id="emptyFirstRound"></p>
          <div>
      </div>
 
+<script type="text/javascript">
+  function correct(){
+    alert("Good job! That was correct")
+
+};
+
+function wrong(){
+  alert("That wasn't it, try again")
+}
+</script>
 
 
 
-      <button>Click to hear the second note</button>
+
        <!-- <audio controls>
         <source class="audio" src="Gnote.wav" type = "audio/wav"></source>
       </audio> -->
@@ -54,15 +64,15 @@
       <input type="button" value="PLAY"  onclick="play1()">
       <audio id="audioG" src="Gnote.wav" ></audio>
         <div class="secondRound">
-            <button id="secondRoundG">G</button>
-            <button id="secondRoundGSharp">G sharp</button>
-            <button id="secondRoundD">D</button>
-            <button id="secondRoundA">A</button>
+            <button id="secondRoundG" onclick = "correct();">G</button>
+            <button id="secondRoundGSharp" onclick = "wrong();">G sharp</button>
+            <button id="secondRoundD" onclick = "wrong();">D</button>
+            <button id="secondRoundA" onclick = "wrong();">A</button>
         </div>
 
 
 
-      <button>Click to hear the third note</button>
+
       <!-- <audio controls>
        <source class="audio" src="Dnote.wav" type = "audio/wav"></source>
      </audio> -->
@@ -76,16 +86,16 @@
      <audio id="audioD" src="Dnote.wav" ></audio>
       <audio class = "audio" src="Dnote.wav"></audio>
         <div class="thirdRound">
-            <button id="thirdRoundE">E</button>
-            <button id="thirdRoundEFlat">E flat</button>
-            <button id="thirdRoundD">D</button>
-            <button id="thirdRoundF">F</button>
+            <button id="thirdRoundE" onclick = "wrong();">E</button>
+            <button id="thirdRoundEFlat" onclick = "wrong();">E flat</button>
+            <button id="thirdRoundD" onclick = "correct();">D</button>
+            <button id="thirdRoundF" onclick = "wrong();">F</button>
          </div>
 
 
 
 
-    <button>Click to hear the fourth note</button>
+
     <!-- <audio controls>
      <source class="audio" src="Anote.wav" type = "audio/wav"></source>
    </audio> -->
@@ -99,16 +109,16 @@
    <audio id="audioA" src="Anote.wav" ></audio>
     <audio class = "audio" src="Anote.wav"></audio>
         <div class="fourthRound">
-            <button id="fourthRoundA">A</button>
-            <button id="fourthRoundC">C</button>
-            <button id="fourthRoundDflat">D flat</button>
-            <button id="fourthRoundBFlat">B flat</button>
+            <button id="fourthRoundA" onclick = "correct();">A</button>
+            <button id="fourthRoundC" onclick = "wrong();">C</button>
+            <button id="fourthRoundDflat" onclick = "wrong();">D flat</button>
+            <button id="fourthRoundBFlat" onclick = "wrong();">B flat</button>
          </div>
 
 
 
 
-      <button>Click to hear the fifth note</button>
+      
       <!-- <audio controls>
        <source class="audio" src="Fsharp.wav" type = "audio/wav"></source>
       </audio> -->
@@ -122,36 +132,15 @@
       <audio id="audioFsharp" src="Fsharp.wav" ></audio>
 
         <div class="fifthRound">
-            <button id="fifthRoundGSharp">G Sharp</button>
-            <button id="fifthRoundG">G</button>
-            <button id="fifthRoundB">B</button>
-            <button id="firstRoundFSharp"> F Sharp</button>
+            <button id="fifthRoundGSharp" onclick = "wrong();">G Sharp</button>
+            <button id="fifthRoundG" onclick = "wrong();">G</button>
+            <button id="fifthRoundB" onclick = "wrong();">B</button>
+            <button id="firstRoundFSharp" onclick = "correct();"> F Sharp</button>
         </div>
-
-
-    <!-- <div class="bflat">
-        <button type="button" name="button">butt</button>
-        <button class = "Bflat"> Bb</button>
-        <button class = "A"> A </button>
-        <button class = "Fsharp"> F# </button>
-        <button class = "C"> C </button>
-    </div>
-    <div class="G">
-        <button class = "G"> G </button>
-        <button class = "F"> F </button>
-        <button class = "B"> B </button>
-        <button class = "Csharp"> C# </button>
-    </div>
-    <div class="D">
-      <button class = "E"> E </button>
-      <button class = "Asharp"> A# </button>
-      <button class = "Gsharp"> G# </button>
-      <button class = "D"> D </button>
-    </div>
-    <div class = "A">
-      <button class =  -->
-
+</div>
 
 <script type="text/javascript" src ="index.js"></script>
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> -->
+
   </body>
 </html>
