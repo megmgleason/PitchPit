@@ -15,16 +15,33 @@ p{
   margin:20px;
 }
 
-.pad1{
-  width:10px;
-  hieght:10px;
-  background-color: blue;
-}
-audio-controls{
-  display:none;
+
+input{
+  border-radius: 50%;
+  padding: 32px 16px;
+  display:flex;
+  justify-content: flex-end;
+  flex-direction:column;
+  background-color:  #879CFF
 }
 
-.bigthing{
-  align-items: center;
-  justify-content: space-between;
+#oof{
+  width: 1500px;
+  height:225px
 }
+
+input{
+  padding: 20px 45px;
+  margin: 100px;
+  display:flex;
+  direction: row;
+  display:inline-table;
+  justify-content: space-around;
+}
+
+/* #879CFF
+#7BABE8
+#93DFFF
+#7BE4E8
+#D4EDFD
+#7BC3E8 */
