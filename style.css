@@ -1,0 +1,25 @@
+*{
+  margin:0px;
+  padding:0px;
+}
+
+.titleAndSuch{
+  display:flex;
+  align-items:center;
+  flex-direction:column;
+  justify-content:space-between;
+  margin:30px;
+}
+
+p{
+  margin:20px;
+}
+
+.pad1{
+  width:10px;
+  hieght:10px;
+  background-color: blue;
+}
+audio-controls{
+  display:none;
+}
