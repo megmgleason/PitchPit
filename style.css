@@ -11,18 +11,41 @@
   margin:35px;
 }
 
-p{
-  margin:20px;
+h1{
+  font-family: 'Homemade Apple', cursive;
+  color:#595959;
 }
 
+h3{
+  font-family: 'Playfair Display SC', serif;
+  text-align:center;
+  /* display:flex;
+  display-text:center; */
+}
+
+
+h2{
+    font-family: 'Playfair Display SC', serif;
+    margin: 100px;
+}
+
+p{
+  margin:20px;
+
+}
+
+/* .thirdRound{
+  display:flex;
+  justify-content:center;
+} */
 
 input{
   border-radius: 50%;
   padding: 32px 16px;
-  display:flex;
+  /* display:flex;
   justify-content: flex-end;
   flex-direction:column;
-  background-color:  #879CFF
+  background-color:  #879CFF */
 }
 
 #oof{
@@ -30,14 +53,34 @@ input{
   height:225px
 }
 
-input{
+button{
+  padding: 20px 45px;
+  margin: 100px;
+  border: 2px solid;
+  border-color: #0D0D0D
+}
+
+.codepen{
+  display:flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  background-color: #D9A443;
+
+}
+
+p{
+  margin:20px;
+  font-family: 'Arapey', serif;
+  font-size:20px;
+}
+/* input{
   padding: 20px 45px;
   margin: 100px;
   display:flex;
   direction: row;
   display:inline-table;
   justify-content: space-around;
-}
+} */
 
 /* #879CFF
 #7BABE8

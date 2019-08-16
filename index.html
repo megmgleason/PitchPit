@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang ="en" dir ="ltr">
   <head>
+    <link href="https://fonts.googleapis.com/css?family=Homemade+Apple&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display+SC&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Arapey&display=swap" rel="stylesheet">
     <meta charset = "utf-8">
     <title></title>
   </head>
@@ -27,8 +30,10 @@
               audio.play();
          }
        </script>
+     <div class="codepen">
        <input type="button" value="PLAY"  onclick="play()">
        <audio id="audioBFlat" src="Bflat.wav" ></audio>
+      </div>
 
 
       <div class="firstRound">
@@ -45,12 +50,12 @@
 
 <script type="text/javascript">
   function correct(){
-    alert("Good job! That was correct")
+    alert("Good job! That was correct.")
 
 };
 
 function wrong(){
-  alert("That ain't it chief")
+  alert("Hmmm... that wasn't it, try again.")
 }
 </script>
 
@@ -66,8 +71,10 @@ function wrong(){
              audio.play();
         }
       </script>
+    <div class="codepen">
       <input type="button" value="PLAY"  onclick="play1()">
       <audio id="audioG" src="Gnote.wav" ></audio>
+    </div>
         <div class="secondRound">
             <button id="secondRoundG" onclick = "correct();">G</button>
             <button id="secondRoundGSharp" onclick = "wrong();">G sharp</button>
@@ -88,8 +95,10 @@ function wrong(){
             audio.play();
        }
      </script>
+   <div class="codepen">
      <input type="button" value="PLAY"  onclick="play2()">
      <audio id="audioD" src="Dnote.wav" ></audio>
+  </div>
       <audio class = "audio" src="Dnote.wav"></audio>
         <div class="thirdRound">
             <button id="thirdRoundE" onclick = "wrong();">E</button>
@@ -112,8 +121,12 @@ function wrong(){
           audio.play();
      }
    </script>
+
+ <div class="codepen">
    <input type="button" value="PLAY"  onclick="play3()">
    <audio id="audioA" src="Anote.wav" ></audio>
+ </div>
+
     <audio class = "audio" src="Anote.wav"></audio>
         <div class="fourthRound">
             <button id="fourthRoundA" onclick = "correct();">A</button>
@@ -136,8 +149,12 @@ function wrong(){
              audio.play();
         }
       </script>
+    <div class="codepen">
       <input type="button" value="PLAY"  onclick="play4()">
       <audio id="audioFsharp" src="Fsharp.wav" ></audio>
+    </div>
+
+    <h3>Pro Tip-Flutists: Relax! If the embouchure is too tight the sound is pinched, small and flat.</h3>
 
         <div class="fifthRound">
             <button id="fifthRoundGSharp" onclick = "wrong();">G Sharp</button>
@@ -147,6 +164,7 @@ function wrong(){
             <p></p>
         </div>
 </div>
+<h3>Bass Guitarists: TONE IS IN THE HANDS- You can go from a dull thud to a sharp, funky punch simply by choosing where along the string you pick it and how aggressively you hit it. </h3>
 
 <script type="text/javascript" src ="index.js"></script>
 <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> -->
